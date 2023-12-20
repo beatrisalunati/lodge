@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Ubuntu:wght@300&display=swap');
 
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(201, 224, 210);
 }
 
 
@@ -36,7 +37,7 @@ header {
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 102, 70);
     text-decoration: none;
     font-size: 20px;
     padding: 0 10px;
@@ -45,7 +46,7 @@ a {
 @media screen and (max-width: 600px) {
 
     a {
-        color: white;
+        color: rgb(0, 102, 70);
         text-decoration: none;
         font-size: 13px;
         padding: 4px;
@@ -64,19 +65,21 @@ a:hover {
     display: flex;
     justify-content: center;
     position: center;
+    margin-top: 10px;
    
 }
 
 .imagem > img {
-    height: 52vh;
-    width: 52vw;
+    height: 42vh;
+    width: 42vw;
 }
 
 @media screen and (max-width: 600px) {
 
     .imagem > img {
-        height: 25vh;
-        width: 85vw;
+        height: 18vh;
+        width: 75vw;
+        margin-top: 40px;
     }
 
 }
@@ -85,7 +88,7 @@ a:hover {
     content: '';
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 102, 70);
     position: absolute;
     z-index: -3;
 }
@@ -99,6 +102,7 @@ section {
 section h1 {
     margin: 25px 0;
     font-size: 25px;
+    color: rgb(0, 102, 70);;
 }
 
 @media screen and (max-width: 600px) {
@@ -106,6 +110,7 @@ section h1 {
     section h1 {
         margin: 30px;
         font-size: 20px;
+        color: rgb(0, 102, 70);;
     }
 
 }
@@ -113,6 +118,7 @@ section h1 {
 aside p {
     font-size: 19px;
     letter-spacing: 2px;
+    color: rgb(0, 102, 70);;
 }
 
 @media screen and (max-width: 600px) {
@@ -121,6 +127,19 @@ aside p {
         font-size: 14px;
         letter-spacing: 1px;
         margin: 30px;
+        color: rgb(0, 102, 70);;
+    }
+
+}
+
+.final {
+    margin-top: 103px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .final {
+        margin-top: 81px;
     }
 
 }

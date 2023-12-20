@@ -7,7 +7,7 @@
     <title>Urubici Lodge</title>
     <link rel="stylesheet" href="estilos/contato.css">
 
-    
+
 <body>
 
 
@@ -46,28 +46,34 @@
                 <input type="text" placeholder="" maxlength="50" name="menssagem" id="menssagem">
 
 
-                <button type="submit" id="btn-enviar">Enviar</button>
+                <button type="submit" id="btn-enviar" onclick="formaction:enviar()">Enviar</button>
+
+
 
             </form>
         </aside>
     </div>
 
-
-
-
-
     <footer>
         <div class="menu">
             <div class="container">
-                <p>Urubici Lodge © 2023</p>
+                <div class="final">
+                    <p>Urubici Lodge © 2023</p>
+                </div>
             </div>
         </div>
     </footer>
 
+    <script>
+        function enviar() {
+            alert (`Olá ${nome.value}, agradecemos seu contato. Lhe retornaremos através do numero ${whatsapp.value} informado.`)
+        }
+    </script>
 
 
 
-    
+
+
 
 </body>
 
